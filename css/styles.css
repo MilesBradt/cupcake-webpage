@@ -1,19 +1,11 @@
-/* Index */
+body {
+  background-color: #F2B9B3;
+}
+
 .home-links {
   color: #CFCCE8;
   font-size: 18px;
   text-align: center;
-}
-
-#home {
-  background-color: #6D727A;
-  color: #E3E0DC;
-  text-align: center;
-}
-
-/* Cupcake */
-body {
-  background-color: #F2B9B3;
 }
 
 .images {
@@ -44,6 +36,13 @@ body {
   font-style: italic;
 }
 
+#home {
+  background-color: #6D727A;
+  color: #E3E0DC;
+  text-align: center;
+}
+
+
 #shop {
   display: flex;
   margin: 0 auto;
@@ -63,19 +62,4 @@ body {
   font-weight: bold;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #FF4F99;
-}
-
-/* Lecture */
-.left {
-  float: left;
-  padding-right: 5px;
-  padding-bottom: 5px;
-}
-
-.right {
-  float: right;
-}
-
-#boring {
-  text-align: center;
 }
